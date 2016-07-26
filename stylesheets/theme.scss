@@ -368,7 +368,7 @@ body { @include body-font;}
 input, select, textarea { @include field-font }
 
 // Header
-.header {background-image: url("http://www.cosca.org/images/white-laminate-flooring-1460-white-laminate-wood-flooring-1000-x-1000.jpg") background-repeat: repeat-x; height: 180px; }
+.header {background-image: url("http://www.cosca.org/images/white-laminate-flooring-1460-white-laminate-wood-flooring-1000-x-1000.jpg"); background-repeat: repeat-x; height: 180px; }
 
 @media screen and (max-width: 52.5em) {
   .header { border-bottom: 1px solid $header-border-color; }
