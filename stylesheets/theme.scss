@@ -93,7 +93,7 @@ $category-navigation-color: #777;
 $category-navigation-background-color: transparent;
 $category-navigation-active-color: #212121;
 $category-navigation-background-active-color: transparent;
-@mixin category-navigation-font { @include set-font($base-font, 1.6rem, $category-navigation-color, 700, uppercase) }
+@mixin category-navigation-font { @include set-font("Caveat Brush", 1.6rem, $category-navigation-color, 700, uppercase) }
 
 // ----------
 // Account navigation
