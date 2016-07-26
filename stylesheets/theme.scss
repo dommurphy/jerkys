@@ -366,7 +366,7 @@ body { @include body-font;}
 input, select, textarea { @include field-font }
 
 // Header
-.header { background-image: url("http://wallpapercave.com/wp/eN2cTld.jpg"); }
+.header { height="220px" background-image: url("http://wallpapercave.com/wp/eN2cTld.jpg"); }
 
 @media screen and (max-width: 52.5em) {
   .header { border-bottom: 1px solid $header-border-color; }
