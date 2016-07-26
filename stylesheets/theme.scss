@@ -278,7 +278,7 @@ $scroll-up-radius: 0em;
 // ----------
 // Category
 // ----------
-@mixin category-title-font { @include set-font($base-font, 2.3rem, #212121, 700, uppercase); }
+@mixin category-title-font { @include set-font("Caveat Brush", 2.3rem, #212121, 700, uppercase); }
 @mixin subcategory-title-font { @include set-font($base-font, 2rem, #212121, 700); }
 @mixin category-description-font { @include set-font($base-font, 1.4rem, #212121); }
 
