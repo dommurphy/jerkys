@@ -368,7 +368,7 @@ body { @include body-font;}
 input, select, textarea { @include field-font }
 
 // Header
-.header {background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Textured-Stripes-Grey-Seamless-Patterns-For-Website-Background.jpg"); background-repeat: repeat-y; height: 180px; }
+.header {background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Textured-Stripes-Grey-Seamless-Patterns-For-Website-Background.jpg"); background-repeat: repeat-x; height: 180px; }
 
 @media screen and (max-width: 52.5em) {
   .header { border-bottom: 1px solid $header-border-color; }
