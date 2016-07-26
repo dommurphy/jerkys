@@ -53,7 +53,7 @@ $dropdown-menu-hover-background-color: #212121;
 $dropdown-menu-dropdown-color: #212121;
 $dropdown-menu-dropdown-background-color: #efefef;
 $dropdown-menu-dropdown-border-color: #999;
-@mixin dropdown-menu-dropdown-font { @include set-font($base-font, 1.4rem, $dropdown-menu-dropdown-color); }
+@mixin dropdown-menu-dropdown-font { @include set-font("Caveat Brush", 1.4rem, $dropdown-menu-dropdown-color); }
 
 // ----------
 // Basket off-canvas menu
@@ -366,8 +366,6 @@ $message-error-opacity: 1;
 // Common
 body { @include body-font;}
 input, select, textarea { @include field-font }
-
-.page__content: {background-color: #555555; }
 
 // Header
 .header {background-image: url("http://173.254.20.118/wp-content/uploads/2013/07/skyTexture_bkg1.jpg"); background-repeat: repeat-x; height: 180px; }
