@@ -8,7 +8,6 @@
 
 $base-font: (Roboto, Helvetica, sans-serif);
 
-
 // *********************************************
 // Settings
 // *********************************************
@@ -94,7 +93,7 @@ $category-navigation-color: #777;
 $category-navigation-background-color: transparent;
 $category-navigation-active-color: #212121;
 $category-navigation-background-active-color: transparent;
-@mixin category-navigation-font { @include set-font($base-font2, 1.6rem, $category-navigation-color, 700, uppercase) }
+@mixin category-navigation-font { @include set-font($base-font, 1.6rem, $category-navigation-color, 700, uppercase) }
 
 // ----------
 // Account navigation
@@ -369,7 +368,7 @@ body { @include body-font;}
 input, select, textarea { @include field-font }
 
 // Header
-.header {background-image: url("http://www.cosca.org/images/white-laminate-flooring-1460-white-laminate-wood-flooring-1000-x-1000.jpg"); background-repeat: repeat-x; height: 180px; }
+.header {background-image: url("http://www.cosca.org/images/white-laminate-flooring-1460-white-laminate-wood-flooring-1000-x-1000.jpg"); background-repeat: repeat-y;; height: 180px; }
 
 @media screen and (max-width: 52.5em) {
   .header { border-bottom: 1px solid $header-border-color; }
